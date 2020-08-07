@@ -37,6 +37,7 @@ export default function SearchBar({ updateBooksInState }) {
     } catch (error) {
       console.log(error);
       setButtonDisabled(false);
+      alert(`An issue occurred while searching`);
     }
   };
 
