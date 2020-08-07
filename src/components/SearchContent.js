@@ -9,7 +9,7 @@ export default function SearchContent({ books }) {
 
   return (
     <div style={{ margin: '30px auto', width: 'fit-content' }}>
-      {books.length ? listOfBooks : 'No books found'}
+      {books.length ? listOfBooks : 'No books found ¯\\_(ツ)_/¯'}
     </div>
   )
 }
